@@ -53,6 +53,11 @@ namespace LoginUser
             usuario = user.Text;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void Keyyy_TextChanged(object sender, EventArgs e)
         {
             contrasena = key.Text;
