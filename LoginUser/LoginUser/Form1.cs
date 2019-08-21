@@ -45,7 +45,7 @@ namespace LoginUser
 
         private void Button2_Click(object sender, EventArgs e)//salir
         {
-           
+            this.Close();
         }
 
         private void User_TextChanged(object sender, EventArgs e)
