@@ -23,7 +23,7 @@ namespace LoginUser
 
         }
 
-        private void Button1_Click(object sender, EventArgs e)//iniciar
+        private void Button1_Click(object sender, EventArgs e)//enter
         {
             if (usuario == "juancho")
             {
@@ -43,7 +43,7 @@ namespace LoginUser
 
         }
 
-        private void Button2_Click(object sender, EventArgs e)//salir
+        private void Button2_Click(object sender, EventArgs e)//exit
         {
             this.Close();
         }
